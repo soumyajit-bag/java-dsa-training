@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class eveodd {
     public static void main(String [] args){
         System.out.println("Enter the number");
