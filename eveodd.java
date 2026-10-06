@@ -12,5 +12,7 @@ public class eveodd {
         {
             System.out.println(num + " is odd");
         }
+
+        return;
     }
 }
