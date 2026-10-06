@@ -5,8 +5,6 @@ class Solution {
         int[] rmax = new int[height.length];
 
         int count = 0;
-
-        // Left maximum
         int lm = height[0];
 
         for (int i = 0; i < height.length; i++) {
@@ -18,7 +16,6 @@ class Solution {
             lmax[i] = lm;
         }
 
-        // Right maximum
         int rm = height[height.length - 1];
 
         for (int i = height.length - 1; i >= 0; i--) {
@@ -30,7 +27,6 @@ class Solution {
             rmax[i] = rm;
         }
 
-        // Calculate trapped water
         for (int i = 0; i < height.length; i++) {
 
             int water = Math.min(lmax[i], rmax[i]) - height[i];
