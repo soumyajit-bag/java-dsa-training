@@ -4,7 +4,7 @@ public class spiral {
             { 21, 22, 23, 24, 25 } };
     int i = 0;
     int j = 0;
-    while(n>=0)
+    while(n >= 0)
     {
 
         for (int k = 0; k < n - 1; k++) {
@@ -25,8 +25,11 @@ public class spiral {
             i--;
         }
     }
-     n=n-2;
+     n = n-2;
     i++;
     j++;
+}
 
 }
+
+
