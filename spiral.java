@@ -9,20 +9,20 @@ public class spiral {
     {
 
         for (int k = 0; k < n - 1; k++) {
-            System.out.println(mat[i][j] + " ");
+            System.out.print(mat[i][j] + " ");
             j++;
         }
         for (int k = 0; k < n - 1; k++) {
-            System.out.println(mat[i][j] + " ");
+            System.out.print(mat[i][j] + " ");
             i++;
         }
 
         for (int k = 0; k < n - 1; k++) {
-            System.out.println(mat[i][j] + " ");
+            System.out.print(mat[i][j] + " ");
             j--;
         }
         for (int k = 0; k < n - 1; k++) {
-            System.out.println(mat[i][j] + " ");
+            System.out.print(mat[i][j] + " ");
             i--;
         }
     }
